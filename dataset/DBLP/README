@@ -1,0 +1,15 @@
+DBLP数据集说明
+节点类型：author、paper、conf
+author属性：所有相关论文的关键词，words-of-bag
+paper属性：改论文的关键词
+conf属性：相关论文的关键词
+
+连边关系：a-p，p-c
+
+数量关系：(只选取有label的author节点及其关联的paper和conf)
+author节点：4057
+paper节点：14328
+conf节点：20
+term属性：8920
+pa连边数量：19645
+pc连边数量：14328
